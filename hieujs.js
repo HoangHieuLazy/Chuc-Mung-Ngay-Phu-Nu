@@ -13,6 +13,24 @@ d.onclick=()=>{
     var linhName = 'Dieu Linh';
     var linhPass = 'Linh2010';
 
+    var trangName = 'Trang Trang';
+    var trangPass = 'Trang2010';
+
+    var bichName = 'Bich Bich';
+    var bichPass = 'Bich2010';
+
+    var aiName = 'Thuy Ai';
+    var aiPass = 'Ai2010';
+
+    var manName = 'Man Man';
+    var manPass = 'Man2010';
+
+    var thuName = 'Bui Thu';
+    var thuPass = 'Thu2010';
+
+    var huongName = 'Thanh Huong';
+    var huongPass = 'Huong2010';
+
     var Name = '';
     var Pass = '';
 
@@ -50,10 +68,79 @@ d.onclick=()=>{
             Chúc e vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
             Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp a thì sẽ có điều bất ngờ nhé ^^ </p>
             <img src ="./Linh.jpg">
-        </div>
-        `
+        </div>  `
     }
 
+    else if(trangName===a.value && trangPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Trên thiên đường có 10 thiên thần: 5 thiên thần đang chơi đùa, 4 thiên thần đang nói chuyện và 1 thiên thần đang đọc tin nhắn này.
+            Chúc cậu vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé! </p>
+            <img src ="./Trang.jpg">
+        </div>  `
+    }
+
+    else if(bichName===a.value && bichPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Ngày Phụ nữ Việt Nam 20/10, chúc cậu nhận được nhiều quà, nhiều hoa, nhiều lời khen lời chúc của phái nam trong ngày hôm nay.
+            Đặc biệt là từ bạn Trường đẹp zai nhé :)).
+             Chúc cậu em có một ngày 20/10 thật là ý nghĩa, vui tươi ngập tràn hạnh phúc. </p>
+            <img src ="./Bich.jpg">
+        </div>  `
+    }
+
+    else if(thuName===a.value && thuPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Nhân ngày Phụ nữ Việt Nam, xin gửi những lời chúc nồng nhiệt nhất đến bé Thu.
+             Chúc em ngày một xinh đẹp để ngày càng có thêm nhiều chàng trai đeo bám nhằng nhằng như lửa bám xăng,
+              như răng bám lợi, như trời bám mây, như cây bám đất, như bít tất bám... bàn chân nhé ^^ </p>
+            <img src ="./Thu.jpg">
+        </div>  `
+    }
+
+    else if(manName===a.value && manPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Nhân ngày Phụ nữ Việt Nam, xin gửi những lời chúc nồng nhiệt nhất đến bé Mận.
+            Chúc em ngày một xinh đẹp để ngày càng có thêm nhiều chàng trai đeo bám nhằng nhằng như lửa bám xăng,
+             như răng bám lợi, như trời bám mây, như cây bám đất, như bít tất bám... bàn chân nhé ^^  </p>
+            <img src ="./Man.jpg">
+        </div>  `
+    }
+
+    else if(aiName===a.value && aiPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Trên thiên đường có 10 thiên thần: 5 thiên thần đang chơi đùa, 4 thiên thần đang nói chuyện và 1 thiên thần đang đọc tin nhắn này.
+            Chúc em vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
+            Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp đc anh thì a sẽ có điều bất ngờ cho e nhé ^^ </p>
+            <img src ="./Ai.jpg">
+        </div>  `
+    }
+
+    else if(huongName===a.value && huongPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Trên thiên đường có 10 thiên thần: 5 thiên thần đang chơi đùa, 4 thiên thần đang nói chuyện và 1 thiên thần đang đọc tin nhắn này.
+            Chúc e vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
+            Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp a thì sẽ có quà cho nhé ^^ </p>
+            <img src ="./Huong.jpg">
+        </div>  `
+    }
 
     else {
         e.innerHTML = '<h2 style="color: red; text-align: center; margin-top: 20px">Nhập sai</h2>'
