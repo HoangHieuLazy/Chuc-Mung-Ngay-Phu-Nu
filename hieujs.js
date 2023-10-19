@@ -31,6 +31,9 @@ d.onclick=()=>{
     var huongName = 'Thanh Huong';
     var huongPass = 'Huong2010';
 
+    var anhName = 'Dieu Anh';
+    var anhPass = 'Anh2010';
+
     var Name = '';
     var Pass = '';
 
@@ -139,6 +142,18 @@ d.onclick=()=>{
             Chúc e vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
             Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp a thì sẽ có quà cho nhé ^^ </p>
             <img src ="./Huong.jpg">
+        </div>  `
+    }
+
+    else if(anhName===a.value && anhPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Trên thiên đường có 10 thiên thần: 5 thiên thần đang chơi đùa, 4 thiên thần đang nói chuyện và 1 thiên thần đang đọc tin nhắn này.
+            Chúc em vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
+            Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp a thì sẽ có điều bất ngờ nhé ^^ </p>
+            <img src ="./DieuAnh.jpg">
         </div>  `
     }
 
