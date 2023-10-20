@@ -37,6 +37,9 @@ d.onclick=()=>{
     var yenName = 'Thu Yen';
     var yenPass = 'Yen2010';
 
+    var khanhName = 'Ngoc Khanh';
+    var khanhPass = 'Khanh2010';
+
     var Name = '';
     var Pass = '';
 
@@ -169,6 +172,17 @@ d.onclick=()=>{
             Chúc em vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
             Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp đc anh thì a sẽ có điều bất ngờ cho e nhé ^^ </p>
             <img src ="./Yen.jpg">
+        </div>  `
+    }
+
+    else if(khanhName===a.value && khanhPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Tớ xin thay mặt cho hội những người đẹp trai, chúc cậu có một ngày 20/10 ngập tràn niềm vui và hạnh phúc.
+             Chúc cậu luôn xinh đẹp, tươi trẻ và nhận được thật nhiều quà nhé! </p>
+            <img src ="./khanh.jpg">
         </div>  `
     }
 
