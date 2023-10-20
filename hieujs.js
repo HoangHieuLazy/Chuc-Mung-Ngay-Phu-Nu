@@ -183,7 +183,7 @@ d.onclick=()=>{
         ` 
         <div class="content">
             <h1>HAPPY WOMEN DAY</h1>
-            <p>Tớ xin thay mặt cho hội những người đẹp trai good boy, chúc cậu có một ngày 20/10 ngập tràn niềm vui và hạnh phúc 😁.
+            <p>Tớ xin thay mặt cho hội những người đẹp trai good boy, chúc Khánh có một ngày 20/10 ngập tràn niềm vui và hạnh phúc 😁.
              Chúc cậu luôn xinh đẹp, tươi trẻ và nhận được thật nhiều quà nhé! 
              Future Doctor 🩺 </p>
             <img src ="./khanh.jpg">
@@ -195,8 +195,8 @@ d.onclick=()=>{
         ` 
         <div class="content">
             <h1>HAPPY WOMEN DAY</h1>
-            <p> Happy Women's Day! Chúc bạn xinh đẹp có một ngày 20/10 vui vẻ, hạnh phúc nhé :)).
-             Chúc cho mọi dự định trong tương lai của bạn sẽ thành công. 🎈🎈
+            <p> Happy Women's Day! Chúc Thu xinh đẹp có một ngày 20/10 vui vẻ, hạnh phúc nhé :)).
+             Chúc cho mọi dự định trong tương lai của cậu sẽ thành công. 🎈🎈
              Bác sỹ tương lai !!!</p>
             <img src ="./Thu_2k1.jpg">
         </div>  `
