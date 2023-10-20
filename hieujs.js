@@ -168,7 +168,7 @@ d.onclick=()=>{
             <p>Trên thiên đường có 10 thiên thần: 5 thiên thần đang chơi đùa, 4 thiên thần đang nói chuyện và 1 thiên thần đang đọc tin nhắn này.
             Chúc em vui vẻ, hạnh phúc và có một ngày 20/10 ý nghĩa  nhé!
             Tấm thiệp này coi như là quà tinh thần, bao giờ mà gặp đc anh thì a sẽ có điều bất ngờ cho e nhé ^^ </p>
-            <img src ="./yen.jpg">
+            <img src ="./Yen.jpg">
         </div>  `
     }
 
